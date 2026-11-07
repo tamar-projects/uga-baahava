@@ -1,0 +1,30 @@
+ assets/files/catalog.pdf                           | Bin [31m125060[m -> [32m0[m bytes
+ assets/images/about-cake.jpg                       | Bin [31m97255[m -> [32m0[m bytes
+ assets/images/cake-berry.jpg                       | Bin [31m122237[m -> [32m0[m bytes
+ assets/images/cake-birthday.jpg                    | Bin [31m142725[m -> [32m0[m bytes
+ assets/images/cake-chocolate.jpg                   | Bin [31m148479[m -> [32m0[m bytes
+ assets/images/cake-elegant.jpg                     | Bin [31m117105[m -> [32m0[m bytes
+ assets/images/cake-roses.jpg                       | Bin [31m95168[m -> [32m0[m bytes
+ assets/images/cake-strawberry.jpg                  | Bin [31m143511[m -> [32m0[m bytes
+ assets/images/cupcakes.jpg                         | Bin [31m90867[m -> [32m0[m bytes
+ assets/images/hero-cake.jpg                        | Bin [31m253646[m -> [32m0[m bytes
+ assets/images/order-cake.jpg                       | Bin [31m190543[m -> [32m0[m bytes
+ assets/media/baking-chime.wav                      | Bin [31m96620[m -> [32m0[m bytes
+ assets/media/tour-cakes.mp4                        | Bin [31m256069[m -> [32m0[m bytes
+ css/style.css                                      | 926 [31m---------------------[m
+ favicon.ico                                        | Bin [31m4996[m -> [32m0[m bytes
+ index.html                                         | 245 [31m------[m
+ pages/about.html                                   | 134 [31m---[m
+ pages/cakes.html                                   | 197 [31m-----[m
+ pages/contact.html                                 | 145 [31m----[m
+ pages/desserts.html                                | 153 [31m----[m
+ pages/order.html                                   | 182 [31m----[m
+ pages/recipe.html                                  | 160 [31m----[m
+ pages/thanks.html                                  | 109 [31m---[m
+ submission_materials/README.txt                    |  45 [31m-[m
+ submission_materials/mind-map.svg                  |   1 [31m-[m
+ submission_materials/screen-planning.svg           |   1 [31m-[m
+ ...52\327\236\327\225\327\240\327\225\327\252.txt" |  25 [31m-[m
+ ...44\327\250\327\225\327\231\327\247\327\230.txt" |  54 [31m--[m
+ ...4\327\250\327\225\327\231\327\247\327\230.html" |   1 [31m-[m
+ 29 files changed, 2378 deletions(-)

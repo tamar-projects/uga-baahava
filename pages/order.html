@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="עוגה באהבה &mdash; עוגות מעוצבות וקינוחים בהזמנה אישית" name="description"/>
+  <title>
+   טופס הזמנה | עוגה באהבה
+  </title>
+  <link href="../favicon.ico" rel="icon"/>
+  <link href="../css/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <!-- כותרת האתר והניווט הראשי -->
+  <header class="site-header">
+   <div class="header-inner wrap">
+    <a class="brand" href="../index.html">
+     <span class="brand-mark">
+      🎂
+     </span>
+     <span>
+      עוגה באהבה
+      <small>
+       עוגות מעוצבות בהזמנה אישית
+      </small>
+     </span>
+    </a>
+    <nav aria-label="תפריט ראשי" class="main-nav">
+     <ul>
+      <li>
+       <a href="../index.html">
+        דף הבית
+       </a>
+      </li>
+      <li>
+       <a href="about.html">
+        אודות
+       </a>
+      </li>
+      <li>
+       <a href="cakes.html">
+        עוגות
+       </a>
+      </li>
+      <li>
+       <a href="desserts.html">
+        קינוחים
+       </a>
+      </li>
+      <li>
+       <a href="recipe.html">
+        מתכון
+       </a>
+      </li>
+      <li>
+       <a href="order.html">
+        הזמנה
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <!-- התוכן המרכזי של העמוד -->
+  <main class="wrap">
+   <!-- אזור תוכן: page-intro -->
+   <section class="page-intro">
+    <span class="pill">
+     נתכנן יחד את המתיקות
+    </span>
+    <h1>
+     טופס הזמנה
+    </h1>
+    <p>
+     מלאו את הפרטים ונחזור אליכם כדי לסגור את כל הפרטים של ההזמנה.
+    </p>
+   </section>
+   <!-- אזור תוכן: content-card -->
+   <section class="content-card form-layout">
+    <div class="form-photo">
+     <img alt="עוגה מעוצבת לקראת חגיגה" src="../assets/images/order-cake.jpg"/>
+    </div>
+    <form action="thanks.html" class="order-form" method="get">
+     <div class="field">
+      <label for="customer-name">
+       שם מלא *
+      </label>
+      <input autocomplete="name" id="customer-name" minlength="2" name="name" placeholder="שם ושם משפחה" required="" type="text"/>
+     </div>
+     <div class="field">
+      <label for="phone">
+       טלפון *
+      </label>
+      <input autocomplete="tel" id="phone" name="phone" pattern="[0-9+() -]{9,15}" placeholder="050-1234567" required="" type="tel"/>
+     </div>
+     <div class="field">
+      <label for="email">
+       דואר אלקטרוני
+      </label>
+      <input autocomplete="email" id="email" name="email" placeholder="name@example.com" type="email"/>
+     </div>
+     <div class="field">
+      <label for="product">
+       מה תרצו להזמין? *
+      </label>
+      <select id="product" name="product" required="">
+       <option value="">
+        בחרו סוג הזמנה
+       </option>
+       <option>
+        עוגה מעוצבת
+       </option>
+       <option>
+        עוגת יום הולדת
+       </option>
+       <option>
+        עוגת שוקולד
+       </option>
+       <option>
+        קאפקייקס
+       </option>
+       <option>
+        מארז קינוחים
+       </option>
+      </select>
+     </div>
+     <div class="field">
+      <label for="date">
+       תאריך מבוקש *
+      </label>
+      <input id="date" name="date" required="" type="date"/>
+     </div>
+     <div class="field">
+      <label for="quantity">
+       מספר סועדים / כמות
+      </label>
+      <input id="quantity" max="300" min="1" name="quantity" type="number" value="10"/>
+     </div>
+     <div class="field full">
+      <label for="details">
+       פרטים נוספים
+      </label>
+      <textarea id="details" name="details" placeholder="טעם, צבעים, כיתוב על העוגה, תקציב או בקשות מיוחדות"></textarea>
+     </div>
+     <div class="field full">
+      <div class="form-actions">
+       <button class="btn" type="submit">
+        שליחת הזמנה &hearts;
+       </button>
+       <button class="btn secondary" type="reset">
+        איפוס הטופס
+       </button>
+      </div>
+      <p class="note">
+       זהו טופס הדגמה לימודי: השליחה מעבירה לדף אישור ואינה שולחת נתונים לשרת אמיתי.
+      </p>
+     </div>
+    </form>
+   </section>
+  </main>
+  <!-- הכותרת התחתונה וקישורים נוספים -->
+  <footer class="site-footer">
+   <div class="footer-inner wrap">
+    <span>
+     &copy; כל הזכויות שמורות | עוגה באהבה
+    </span>
+    <div class="footer-links">
+     <a href="about.html">
+      אודות
+     </a>
+     <a href="../assets/files/catalog.pdf" download>
+      קטלוג להדפסה (PDF)
+     </a>
+     <a href="contact.html">
+      יצירת קשר
+     </a>
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>
+
